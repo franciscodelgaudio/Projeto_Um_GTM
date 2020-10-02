@@ -1,0 +1,722 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*---------------------------------------------------------------------*/
+@media screen and (max-width:425px){
+    /*logotipo*/
+    header{
+        position:relative;
+    }
+    
+     .logotipo{
+        background-color:#c20001;
+        height:75px;
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+    }
+    
+    .logotipo img{
+        width:120px;
+        height:120px;
+        background-color:#c20001; 
+        position:absolute;
+        top:5px;
+        left:50%;
+        transform: translateX(-50%);
+        z-index:4;
+        border-radius:15px;
+        padding:10px;
+    }
+    
+    /*fim do logotipo*/
+    
+    /*página inicial*/
+    
+    .header-div{
+        background-image: url("../imagens/iphone-5537230_640.jpg");
+        background-size:cover;
+        background-position: center;
+        width:100%;
+        height: 600px;
+        position:relative;
+        text-align:left;
+    }
+    
+    .header-div:after{
+        content: '';
+        background-color: rgba(0, 0, 0, 0.7);
+        height:100%;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    
+    .header-div h2{
+        position: absolute;
+        top:180px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.875em;
+        font-weight: bold;
+        width:50%;
+        border-bottom: solid 2px white;
+        padding-bottom:20px;
+    }
+    
+    .header-div p{
+        position: absolute;
+        top:280px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.25em;
+        width:50%;
+        line-height: 1.5;
+    }
+    
+    
+    .header-div a{
+        position: absolute;
+        top:400px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1em;
+        font-weight: 400;
+        padding:1.06em 1.875em;
+        background-color:#c20001;
+        text-decoration: none;
+        border:2px solid black;
+        letter-spacing: 1.5px;
+    }
+    /*fim da página inicial*/
+    
+    /*seção um*/
+    .section-um_container{
+        background: linear-gradient(to right, #c20001, #000000);
+        width:90%;
+        height:22em;
+        color:white;
+        margin: 20px auto 20px;
+        box-shadow: 0 0 3px black;
+        text-align:center;
+        padding-top:10px;
+    }
+    
+    .section-um_container span{
+        display: inline-block;
+        font-size:65px;
+        margin:20px;
+    }
+    
+    .section-um_container a{
+        display: inline-block;
+        color:white;
+        background-color:rgb(194, 0 , 1);
+        border: solid 2px black;
+        padding:15px 30px;
+        margin-top:25px;
+        text-decoration: none;
+    }
+    
+    .section-um_container p{
+        margin: 10px 30px;
+        line-height: 1.5;
+        font-size:1.5625em;
+        font-weight: 300;
+    }
+    
+    /*fim do menu*/
+    
+    /*rodape*/
+    .footer-icones{
+        background-color:black;
+        text-align:center;
+        padding:20px;
+    }
+   
+    .footer-icones a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .footer-icones a span{
+        margin: 0 20px;
+        font-size: 1.875em;
+    }
+
+    .footer-div{
+        background-color:rgb(194, 0 , 1);
+        color:black;
+        padding:20px;
+        text-align:center;
+        font-size:1em;
+        height: 50px;
+    }
+    
+    .footer-div a{
+        color:black;
+        font-weight: bold;
+    }
+    /*fim do rodape*/
+    
+    /*whatsapp*/
+    
+      .nav-whats a{
+        position:fixed; 
+        right:0;
+        bottom:0;
+        z-index:999;
+        background-color:#58d164;
+        border-radius:50px 5px 0px 0px;
+        padding:10px 10px 10px 30px;
+        color:white;
+        text-decoration: none;
+    }
+    /*fim do whatsapp*/
+}
+
+/*---------------------------------------------------------------------*/
+
+@media screen and (min-width:426px){
+    /*logotipo*/
+    header{
+        position:relative;
+    }
+    
+     .logotipo{
+        background-color: rgb(194, 0 , 1);
+        height:75px;
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+    }
+    
+    .logotipo img{
+        width:120px;
+        height:120px;
+        background-color:#c20001; 
+        position:absolute;
+        top:5px;
+        left:50%;
+        transform: translateX(-50%);
+        z-index:4;
+        border-radius:15px;
+        padding:10px;
+    }
+    
+    /*fim do logotipo*/
+    
+    /*página inicial*/
+    
+    .header-div{
+        background-image: url("../imagens/iphone-5537230_640.jpg");
+        background-size:cover;
+        background-position: center;
+        width:100%;
+        height: 600px;
+        position:relative;
+        text-align:left;
+    }
+    
+    .header-div:after{
+        content: '';
+        background-color: rgba(0, 0, 0, 0.7);
+        height:100%;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    
+    .header-div h2{
+        position: absolute;
+        top:180px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.875em;
+        font-weight: bold;
+        width:50%;
+        border-bottom: solid 2px white;
+        padding-bottom:28px;
+    }
+    
+    .header-div p{
+        position: absolute;
+        top:260px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.25em;
+        width:50%;
+        line-height: 1.5;
+    }
+    
+    
+    .header-div a{
+        position: absolute;
+        top:350px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1em;
+        font-weight: 400;
+        padding:1.06em 1.875em;
+        background-color:#c20001;
+        text-decoration: none;
+        border:2px solid black;
+        letter-spacing: 1.5px;
+    }
+    /*fim da página inicial*/
+    
+    /*seção um*/
+    .section-um_container{
+        background: linear-gradient(to right, #c20001, #000000);
+        width:90%;
+        height:22em;
+        color:white;
+        margin: 20px auto 20px;
+        box-shadow: 0 0 3px black;
+        text-align:center;
+        padding-top:10px;
+    }
+    
+    .section-um_container span{
+        display: inline-block;
+        font-size:65px;
+        margin:20px;
+    }
+    
+    .section-um_container a{
+        display: inline-block;
+        color:white;
+        background-color:rgb(194, 0 , 1);
+        border: solid 2px black;
+        padding:15px 30px;
+        margin-top:25px;
+        text-decoration: none;
+    }
+    
+    .section-um_container p{
+        margin: 10px 30px;
+        line-height: 1.5;
+        font-size:1.5625em;
+        font-weight: 300;
+    }
+    
+    /*fim do menu*/
+    
+    /*rodape*/
+    .footer-icones{
+        background-color:black;
+        text-align:center;
+        padding:20px;
+    }
+   
+    .footer-icones a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .footer-icones a span{
+        margin: 0 20px;
+        font-size: 1.875em;
+    }
+
+    .footer-div{
+        background-color:rgb(194, 0 , 1);
+        color:black;
+        padding:20px;
+        text-align:center;
+        font-size:1em;
+        height: 50px;
+    }
+    
+    .footer-div a{
+        color:black;
+        font-weight: bold;
+    }
+    /*fim do rodape*/
+    
+    /*whatsapp*/
+    
+      .nav-whats a{
+        position:fixed; 
+        right:0;
+        bottom:0;
+        z-index:999;
+        background-color:#58d164;
+        border-radius:50px 5px 0px 0px;
+        padding:10px 10px 10px 30px;
+        color:white;
+        text-decoration: none;
+    }
+    /*fim do whatsapp*/
+    
+/*---------------------------------------------------------------------*/
+
+@media screen and (min-width:769px){
+    /*logotipo*/
+    header{
+        position:relative;
+    }
+    
+     .logotipo{
+        background-color: rgb(194, 0 , 1);
+        height:75px;
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+    }
+    
+    .logotipo img{
+        width:120px;
+        height:120px;
+        background-color:#c20001; 
+        position:absolute;
+        top:5px;
+        left:50%;
+        transform: translateX(-50%);
+        z-index:4;
+        border-radius:15px;
+        padding:10px;
+    }
+    
+    /*fim do logotipo*/
+    
+    /*página inicial*/
+    
+    .header-div{
+        background-image: url("../imagens/iphone-5537230_1920.jpg");
+        background-size:cover;
+        background-position: center;
+        width:100%;
+        height: 600px;
+        position:relative;
+        text-align:left;
+    }
+    
+    .header-div:after{
+        content: '';
+        background-color: rgba(0, 0, 0, 0.7);
+        height:100%;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    
+    .header-div h2{
+        position: absolute;
+        top:180px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.875em;
+        font-weight: bold;
+        width:50%;
+        border-bottom: solid 2px white;
+        padding-bottom:28px;
+    }
+    
+    .header-div p{
+        position: absolute;
+        top:270px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.25em;
+        width:50%;
+        line-height: 1.5;
+    }
+    
+    
+    .header-div a{
+        position: absolute;
+        top:350px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1em;
+        font-weight: 400;
+        padding:1.06em 1.875em;
+        background-color:#c20001;
+        text-decoration: none;
+        border:2px solid black;
+        letter-spacing: 1.5px;
+    }
+    /*fim da página inicial*/
+    
+    /*seção um*/
+  .section-um_container{
+        background: linear-gradient(to right, #c20001, #000000);
+        width:90%;
+        height:22em;
+        color:white;
+        margin: 20px auto 20px;
+        box-shadow: 0 0 3px black;
+        text-align:center;
+        padding-top:10px;
+    }
+    
+    .section-um_container span{
+        display: inline-block;
+        font-size:80px;
+        margin:20px;
+    }
+    
+    .section-um_container a{
+        display: inline-block;
+        color:white;
+        background-color:#c20001;
+        border: solid 2px black;
+        padding:20px 50px;
+        margin-top:25px;
+        text-decoration: none;
+        font-size:20px;
+    }
+    
+   .section-um_container p{
+        margin: 10px 30px;
+        line-height: 1.5;
+        font-size:1.5625em;
+        font-weight: 300;
+    }
+    
+    /*fim do menu*/
+    
+    /*rodape*/
+    .footer-icones{
+        background-color:black;
+        text-align:center;
+        padding:20px;
+    }
+   
+    .footer-icones a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .footer-icones a span{
+        margin: 0 20px;
+        font-size: 1.875em;
+    }
+
+    .footer-div{
+        background-color:rgb(194, 0 , 1);
+        color:black;
+        padding:20px;
+        text-align:center;
+        font-size:1em;
+        height: 50px;
+    }
+    
+    .footer-div a{
+        color:black;
+        font-weight: bold;
+    }
+    /*fim do rodape*/
+    
+    /*whatsapp*/
+    
+      .nav-whats a{
+        position:fixed; 
+        right:0;
+        bottom:0;
+        z-index:999;
+        background-color:#58d164;
+        border-radius:50px 5px 0px 0px;
+        padding:10px 10px 10px 30px;
+        color:white;
+        text-decoration: none;
+        font-size:20px;
+    }
+    /*fim do whatsapp*/
+    
+    /*---------------------------------------------------------------------*/
+
+@media screen and (min-width:1024px){
+    /*logotipo*/
+    header{
+        position:relative;
+    }
+    
+     .logotipo{
+        background-color: rgb(194, 0 , 1);
+        height:75px;
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+    }
+    
+    .logotipo img{
+        width:120px;
+        height:120px;
+        background-color:#c20001; 
+        position:absolute;
+        top:5px;
+        left:50%;
+        transform: translateX(-50%);
+        z-index:4;
+        border-radius:15px;
+        padding:10px;
+    }
+    
+    /*fim do logotipo*/
+    
+    /*página inicial*/
+    
+    .header-div{
+        background-image: url("../imagens/iphone-5537230_1920.jpg");
+        background-size:cover;
+        background-position: center;
+        width:100%;
+        height: 600px;
+        position:relative;
+        text-align:left;
+    }
+    
+    .header-div:after{
+        content: '';
+        background-color: rgba(0, 0, 0, 0.7);
+        height:100%;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    
+    .header-div h2{
+        position: absolute;
+        top:180px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.875em;
+        font-weight: bold;
+        width:50%;
+        border-bottom: solid 2px white;
+        padding-bottom:28px;
+    }
+    
+    .header-div p{
+        position: absolute;
+        top:270px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1.25em;
+        width:50%;
+        line-height: 1.5;
+    }
+    
+    
+    .header-div a{
+        position: absolute;
+        top:350px;
+        left:30px;
+        color:white;
+        z-index:2;
+        font-size:1em;
+        font-weight: 400;
+        padding:1.06em 1.875em;
+        background-color:#c20001;
+        text-decoration: none;
+        border:2px solid black;
+        letter-spacing: 1.5px;
+    }
+    /*fim da página inicial*/
+    
+    /*seção um*/
+    .section-um_container{
+        background: linear-gradient(to right, #c20001, #000000);
+        width:90%;
+        height:22em;
+        color:white;
+        margin: 20px auto 20px;
+        box-shadow: 0 0 3px black;
+        text-align:center;
+        padding-top:10px;
+    }
+    
+    .section-um_container span{
+        display: inline-block;
+        font-size:80px;
+        margin:20px;
+    }
+    
+    .section-um_container a{
+        display: inline-block;
+        color:white;
+        background-color:#c20001;
+        border: solid 2px black;
+        padding:20px 50px;
+        margin-top:25px;
+        text-decoration: none;
+        font-size:20px;
+    }
+    
+    .section-um_container p{
+        margin: 10px 30px;
+        line-height: 1.5;
+        font-size:1.5625em;
+        font-weight: 300;
+    }
+    
+    /*fim do menu*/
+    
+    /*rodape*/
+    .footer-icones{
+        background-color:black;
+        text-align:center;
+        padding:20px;
+    }
+   
+    .footer-icones a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .footer-icones a span{
+        margin: 0 20px;
+        font-size: 1.875em;
+    }
+
+    .footer-div{
+        background-color:rgb(194, 0 , 1);
+        color:black;
+        padding:20px;
+        text-align:center;
+        font-size:1em;
+        height: 50px;
+    }
+    
+    .footer-div a{
+        color:black;
+        font-weight: bold;
+    }
+    /*fim do rodape*/
+    
+    /*whatsapp*/
+    
+      .nav-whats a{
+        position:fixed; 
+        right:0;
+        bottom:0;
+        z-index:999;
+        background-color:#58d164;
+        border-radius:50px 5px 0px 0px;
+        padding:10px 10px 10px 30px;
+        color:white;
+        text-decoration: none;
+        font-size:20px;
+    }
+    /*fim do whatsapp*/
